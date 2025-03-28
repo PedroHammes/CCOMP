@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    margin: auto;
+    border: 3px solid #292929;
+    border-radius: 8px;
+    padding: 14px 12px;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+.link {
+    color: #3475dc;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.highlight {
+    height: 32px;
+    background-color: #3475dc;
+    color: #F0F0F0;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+.form {
+    margin: 6px 24px 0px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Defino input e button como block
+para garantir que ocupem 1 linha inteira no fluxo do CSS.
+A largura em 100% se refere ao espaço que ocupam em relação ao espaço disponível no elemento pai */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+input {
+    width: 95%;
+
+    height: 32px;
+    margin: auto;
+    border: 3px solid #e3e3e3;
+    border-radius: 4px;
+    padding: 2px 12px;
+    color: #e3e3e3;
+
+}
+button {
+    width: 100%;
+
+    height: 32px;
+    margin: auto;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+
+    background-color: #5ba6ec;
+    color: #F0F0F0;
+
+    cursor: pointer;
+}
+
+.security {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    color: #3475dc;
+    text-decoration: none;
+    cursor: pointer;
+}
